@@ -1,0 +1,15 @@
+#sidebar {
+    background-color: rgb(4, 63, 180);
+    width: 12%;
+}
+
+#sidebar-text {
+    margin: auto;
+    width: 50%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.sb-option {
+    text-align: center;
+}
