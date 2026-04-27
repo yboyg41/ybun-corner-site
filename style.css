@@ -1,0 +1,15 @@
+.text-title {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.text-content {
+    margin-left: 16px;
+}
+
+#content {
+    background-color: rgb(255, 242, 129);
+} 

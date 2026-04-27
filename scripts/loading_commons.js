@@ -22,6 +22,6 @@ async function loadCommonCSS(url) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    loadCommonEl("scripts/common_el.html")
-    loadCommonCSS("scripts/common_css.css")
+    loadCommonEl("/scripts/common_el.html")
+    loadCommonCSS("/scripts/common_css.css")
 })
