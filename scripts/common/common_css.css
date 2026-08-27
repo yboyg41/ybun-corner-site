@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+}
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(52, 52, 52);
+    margin: 0%;
+    width: 100%;
+    height: 8cm;
+} 
+
+#banner-logo {
+    justify-self: center;
+    background-color: aqua;
+    scale: 50%;
+}
+
+#navbar {
+    width: 100%;
+    height: 1.5cm;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: linear-gradient(rgb(30, 30, 30), rgb(12, 12, 12));
+    margin-top: auto;
+}
+
+.navbar-button {
+    background: linear-gradient(rgb(125, 125, 125), rgb(75, 75, 75));
+    width: 4cm;
+    height: 1cm;
+    border-radius: 15px;
+    margin-bottom: 8px;
+    align-self: center;
+     
+}
+
+.navbar-button > p {
+    text-align: center;
+    align-items: center;
+}
