@@ -41,3 +41,7 @@ html, body {
     text-align: center;
     align-items: center;
 }
+
+#content {
+    margin: 8px;
+}
