@@ -12,9 +12,10 @@ html, body {
 } 
 
 #banner-logo {
+    display: flex;
     justify-self: center;
-    background-color: aqua;
-    scale: 50%;
+    width: 25%;
+    height: auto;
 }
 
 #navbar {

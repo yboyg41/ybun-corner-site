@@ -19,6 +19,12 @@
     height: 10cm;
     background-color: aqua;
     margin: 4px;
+    border-radius: 16px;
+}
+
+.project-text {
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 #thumb-moonie {
@@ -26,4 +32,30 @@
     width: 50%;
     height: auto;
     align-self: center;
+}
+
+#thumb-ptp {
+    margin-top: 8px;
+    width: 32%;
+    scale: 200%;
+    height: auto;
+    align-self: center;
+}
+
+.project-buttons > a > button {
+    height: 0.75cm;
+    width: 4cm;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.yt-btn {
+    background-color: #ff0033;
+    color: #ffffff;
+}
+
+#mm-ost {
+    background-color: #791ac4;
+    color: #ffffff;
 }
