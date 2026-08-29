@@ -9,6 +9,7 @@
     flex-direction: column;
     background-color: aquamarine;
     width: 10cm;
+    height: fit-content;
     border-radius: 12px;
     padding-bottom: 8px;
 }
@@ -35,6 +36,7 @@
 
 .rack-button-text {
     margin: auto;
+    text-decoration: none;
 }
 
 
