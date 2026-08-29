@@ -20,6 +20,25 @@
 }
 
 .rack-button {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.rack-button-icon {
+    height: 1cm;
+    width: auto;
+    justify-self: start;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.rack-button-text {
+    margin: auto;
+}
+
+
+.rack-button {
     width: 6cm;
     height: 1.25cm;
     margin: auto;
