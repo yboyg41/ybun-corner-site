@@ -30,16 +30,6 @@ document.addEventListener("DOMContentLoaded", () => {
             stor.setItem("lastState", button.dataset.state)
         })
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
 })
