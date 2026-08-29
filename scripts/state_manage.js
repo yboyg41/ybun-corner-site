@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
     function loadPage(id) {
         const elem = document.getElementById(id)
         const elemct = elem.content.cloneNode(true)
-    
         contentDiv.appendChild(elemct)
 
     }
@@ -18,7 +17,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     // the buttons
+    const bannerButtons = document.getElementsByClassName("navbar-buttons")
 
+    Array.from(bannerButtons).forEach(button => {
+        console.log(state)        
+    });
     
     
     
