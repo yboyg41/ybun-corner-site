@@ -1,10 +1,9 @@
-let state = "portf"
-
 document.addEventListener("DOMContentLoaded", () => {
     
 
     let contentDiv = document.getElementById("content")
 
+    loadPage("landing")
 
     function loadPage(id) {
         const elem = document.getElementById(id)
@@ -16,16 +15,17 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-
+    console.log("enrique")
 
     // the buttons
-    const bannerButtons = document.getElementsByClassName("navbar-buttons")
+    const bannerButtons = document.getElementsByClassName("navbar-button")
+    const btnArr = Array.from(bannerButtons)
 
-    Array.from(bannerButtons).forEach(button => {
-        button.addEventListener('onClick', () => {
-            console.log("boop")
-        })        
-    });
+    for (let button of btnArr) {
+        button.addEventListener('click', () => {
+            loadPage(button.dataset.state)
+        })
+    }
     
     
     
@@ -37,5 +37,5 @@ document.addEventListener("DOMContentLoaded", () => {
     
     
     
-    loadPage(state)
+    
 })
