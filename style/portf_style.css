@@ -22,14 +22,19 @@
     border-radius: 16px;
 }
 
+.project-thumbnail {
+    pointer-events: none;
+}
+
 .project-text {
     margin-left: 12px;
     margin-right: 12px;
 }
 
 #thumb-moonie {
-    margin-top: 8px;
-    width: 50%;
+    margin-top: 16px;
+    width: 32%;
+    scale: 150%;
     height: auto;
     align-self: center;
 }
@@ -42,12 +47,13 @@
     align-self: center;
 }
 
-.project-buttons > a > button {
+.btn {
     height: 0.75cm;
     width: 4cm;
     border: none;
     font-weight: bold;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .yt-btn {

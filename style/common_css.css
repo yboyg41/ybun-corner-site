@@ -32,6 +32,7 @@ html, body {
 
 .navbar-button {
     background: linear-gradient(rgb(125, 125, 125), rgb(75, 75, 75));
+    border: 0;
     width: 4cm;
     height: 1cm;
     border-radius: 15px;
@@ -40,10 +41,15 @@ html, body {
      
 }
 
-.navbar-button > p {
-    text-align: center;
-    align-items: center;
+.navbar-button:hover {
+    background: linear-gradient(rgb(135, 135, 135), rgb(85, 85, 85));     
 }
+
+.navbar-button:active {
+    background: linear-gradient(rgb(75, 75, 75), rgb(125, 125, 125));     
+}
+
+
 
 #content {
     margin: 8px;

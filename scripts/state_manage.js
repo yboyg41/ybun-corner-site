@@ -1,9 +1,12 @@
+let stor = localStorage
+
+
 document.addEventListener("DOMContentLoaded", () => {
     
 
     let contentDiv = document.getElementById("content")
 
-    loadPage("landing")
+    loadPage(stor.getItem("lastState") || "landing")
 
     function loadPage(id) {
         const elem = document.getElementById(id)
@@ -24,6 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     for (let button of btnArr) {
         button.addEventListener('click', () => {
             loadPage(button.dataset.state)
+            stor.setItem("lastState", button.dataset.state)
         })
     }
     

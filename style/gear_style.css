@@ -1,0 +1,14 @@
+#rack-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.rack {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    width: 10cm;
+}
+
+
