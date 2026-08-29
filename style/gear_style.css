@@ -1,6 +1,6 @@
 #rack-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-evenly;
 }
 
@@ -9,6 +9,25 @@
     flex-direction: column;
     background-color: aquamarine;
     width: 10cm;
+    border-radius: 12px;
+}
+
+.rack-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.rack-button {
+    width: 6cm;
+    height: 1.25cm;
+    margin: auto;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: 0;
+    border-radius: 4px;
+    background: linear-gradient(rgb(100, 100, 100), rgb(50, 50, 50));
+    color: rgb(255, 255, 255);
 }
 
 
