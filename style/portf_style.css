@@ -7,6 +7,7 @@
 #project-container {
     display: flex;
     flex-direction: row;
+    gap: 4px;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
@@ -18,7 +19,6 @@
     width: 10cm;
     height: 10cm;
     background-color: aqua;
-    margin: 4px;
     border-radius: 16px;
 }
 

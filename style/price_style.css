@@ -1,0 +1,10 @@
+#content {
+    display: flex;
+    flex-direction: row;
+}
+
+#rules {
+    display: flex;
+    flex-direction: row;
+}
+
