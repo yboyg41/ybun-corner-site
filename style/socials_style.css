@@ -1,0 +1,33 @@
+#content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.social-btn > button {
+    width: 4.5cm;
+    height: 1.25cm;
+    border: 0;
+    border-radius: 4px;
+}
+
+#btn-twt {
+    background-color: #1DA1F2;
+}
+
+#btn-bsky {
+    background-color: #0560FF;
+}
+
+#btn-rd {
+    background-color: #FF4500;
+}
+
+#btn-iio {
+    background-color: #fa5c5c;
+}
+
+#btn-aud {
+    background-color: #791ac4;
+}
