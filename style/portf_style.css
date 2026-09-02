@@ -5,6 +5,7 @@
     gap: 4px;
     flex-wrap: wrap;
     justify-content: flex-start;
+    justify-self: center;
 }
 
 .project-card {
