@@ -1,12 +1,8 @@
-let stor = localStorage
-
-
 document.addEventListener("DOMContentLoaded", () => {
     
-
     let contentDiv = document.getElementById("content")
-
-    loadPage(stor.getItem("lastState") || "landing")
+    window.location.hash = "landing"
+    
 
     function loadPage(id) {
         const elem = document.getElementById(id)
@@ -26,10 +22,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
     for (let button of btnArr) {
         button.addEventListener('click', () => {
-            loadPage(button.dataset.state)
-            stor.setItem("lastState", button.dataset.state)
+            const targetState = button.dataset.state
+            window.location.hash = targetState
         })
     }
+    window.addEventListener('hashchange', () => {
+        const pathHash = window.location.hash.slice(1)
+        loadPage(pathHash)
 
+    })
 
 })
