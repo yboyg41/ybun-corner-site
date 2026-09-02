@@ -1,7 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
     
     let contentDiv = document.getElementById("content")
-    window.location.hash = "landing"
+    
+    if (window.location.hash.slice(1) === "") {
+        window.location.hash = "landing"
+    }
+    
     
 
     function loadPage(id) {
@@ -15,6 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     console.log("enrique")
+    loadPage(window.location.hash.slice(1))
 
     // the buttons
     const bannerButtons = document.getElementsByClassName("navbar-button")
@@ -26,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
             window.location.hash = targetState
         })
     }
-    window.addEventListener('hashchange', () => {
+    window.addEventListener("hashchange", () => {
         const pathHash = window.location.hash.slice(1)
         loadPage(pathHash)
 
