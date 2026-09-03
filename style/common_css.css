@@ -9,6 +9,7 @@
 
 html, body {
     margin: 0;
+    font-family: "Century Gothic";
 }
 
 body {
@@ -27,7 +28,7 @@ body {
 #banner-bg {
     position: absolute;
     overflow: hidden;
-    background-image: url("../assets/images/banner_bg.png");
+    background-image: url("/assets/images/banner_bg.png");
     background-size: 5%;
     animation: scroll 60s linear infinite;
     opacity: 20%;
@@ -63,7 +64,7 @@ body {
     border-radius: 15px;
     margin-bottom: 8px;
     align-self: center;
-     
+    font-family: "Century Gothic";
 }
 
 .navbar-button:hover {

@@ -5,10 +5,9 @@
 }
 
 #page-desc {
-    background: linear-gradient(rgb(255, 255, 225), rgb(200, 200, 200));
+    background: linear-gradient(rgb(255, 255, 225), rgb(255, 255, 100));
     border-radius: 15px;
-    border: 2px;
-    border-color: black;
+    outline: 4px rgb(255, 255, 100) solid;
     width: 32cm;
     margin: 8px;
 }
@@ -21,4 +20,8 @@
     text-align: center;
     font-weight: bold;
     font-size: 32px;
+}
+
+.desc-content {
+    margin: 8px;
 }

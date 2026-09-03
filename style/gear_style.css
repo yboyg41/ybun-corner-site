@@ -7,11 +7,12 @@
 .rack {
     display: flex;
     flex-direction: column;
-    background-color: aquamarine;
+    background: linear-gradient(rgb(255, 255, 255), rgb(127, 255, 212));
+    outline: 4px rgb(127, 255, 212) solid;
     width: 10cm;
     height: fit-content;
     border-radius: 12px;
-    padding-bottom: 8px;
+    padding-bottom: 16px;
 }
 
 .rack-title {
@@ -37,6 +38,7 @@
 .rack-button-text {
     margin: auto;
     text-decoration: none;
+    font-family: "Century Gothic";
 }
 
 
@@ -50,6 +52,11 @@
     border-radius: 4px;
     background: linear-gradient(rgb(100, 100, 100), rgb(50, 50, 50));
     color: rgb(255, 255, 255);
+}
+
+.rack-button:hover {
+    background: linear-gradient(rgb(115, 115, 115), rgb(65, 65, 65));
+
 }
 
 
