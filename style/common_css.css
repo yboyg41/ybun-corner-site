@@ -28,7 +28,7 @@ body {
 #banner-bg {
     position: absolute;
     overflow: hidden;
-    background-image: url("/assets/images/banner_bg.png");
+    background-image: url("../assets/images/banner_bg.png");
     background-size: 5%;
     animation: scroll 60s linear infinite;
     opacity: 20%;
