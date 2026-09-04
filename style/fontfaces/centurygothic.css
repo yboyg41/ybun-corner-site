@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Century Gothic";
-  src: url("./assets/fonts/Century-Gothic-Sans-Font/CenturyGothicPaneuropeanRegular.ttf");
+  src: url("../../assets/fonts/Century-Gothic-Sans-Font/CenturyGothicPaneuropeanRegular.ttf");
 }
 
 @font-face {
   font-family: "Century Gothic";
-  src: url("./assets/fonts/Century-Gothic-Sans-Font/CenturyGothicPaneuropeanBold.ttf");
+  src: url("../../assets/fonts/Century-Gothic-Sans-Font/CenturyGothicPaneuropeanBold.ttf");
   font-weight: bold;
 }
