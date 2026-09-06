@@ -1,0 +1,12 @@
+#rule-sheet {
+    width: 25cm;
+    justify-self: center;
+    background: linear-gradient(white, rgb(180, 180, 180));
+    padding: 15px;
+    outline: 4px rgb(180, 180, 180) solid;
+    border-radius: 12px;
+}
+
+#terms-title {
+    text-align: center;
+}
