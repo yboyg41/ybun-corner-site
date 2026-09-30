@@ -1,10 +1,29 @@
-#project-container {
+.project-container {
     display: flex;
     flex-direction: row;
     gap: 12px;
     flex-wrap: wrap;
     justify-content: flex-start;
     justify-self: center;
+}
+
+.proj-div-text {
+    text-align: center;
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+.proj-divider {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.proj-divider::before, .proj-divider::after {
+    content: '';
+    height: 4px;
+    background: #ffffff;
+    flex: 1;
 }
 
 .project-card {
