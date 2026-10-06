@@ -4,7 +4,7 @@ let locale
 
 async function getLoc(){
     try {
-        const response = await fetch("locale/en.json")
+        const response = await fetch("locale/jp.json")
         if (!response.ok) {
             console.log("failed to retrieve locale")
         } else {
