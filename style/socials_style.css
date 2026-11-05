@@ -28,36 +28,48 @@
     line-height: 0;
 }
 
+.social-btn:hover {
+    scale: 105%;
+}
+
 #btn-twt {
-    background-color: #1DA1F2;
+    background: linear-gradient(#ffffff ,#1DA1F2);
+    outline: #1DA1F2 3px solid;
 }
 
 #btn-bsky {
-    background-color: #0560FF;
+    background: linear-gradient(#ffffff ,#0560FF);
+    outline: #0560FF 3px solid;
 }
 
 #btn-rd {
-    background-color: #FF4500;
+    background: linear-gradient(#ffffff ,#FF4500);
+    outline: #FF4500 3px solid;
 }
 
 #btn-iio {
-    background-color: #fa5c5c;
+    background: linear-gradient(#ffffff ,#fa5c5c);
+    outline: #fa5c5c 3px solid;
 }
 
 #btn-aud {
-    background-color: #791ac4;
+    background: linear-gradient(#ffffff ,#791ac4);
+    outline: #791ac4 3px solid;
 }
 
 #btn-yt {
-    background-color: #ff0033;
+    background: linear-gradient(#ffffff ,#ff0033);
+    outline: #ff0033 3px solid;
 }
 
 #btn-gj {
-    background-color: #ccff00;
+    background: linear-gradient(#ffffff ,#ccff00);
+    outline: #ccff00 3px solid;
 }
 
 #btn-mstdn {
-    background-color: #6364FF;
+    background: linear-gradient(#ffffff ,#6364FF);
+    outline: #6364FF 3px solid;
 }
 
 .addr {
