@@ -1,3 +1,3 @@
-const url = new URL(window.location)
+/* const url = new URL(window.location)
 
-history.replaceState({}, "", url)
+history.replaceState({}, "", url) */

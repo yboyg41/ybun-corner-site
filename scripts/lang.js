@@ -1,3 +1,4 @@
+const url = new URL(window.location)
 const langParam = url.searchParams.get("lang")
 
 let locale = {}
@@ -49,3 +50,20 @@ setInterval(() => {
     }), 
     2
 })
+function setLoc(loc) {
+    url.searchParams.set('lang', loc)
+    history.replaceState({}, "", url)
+    window.location.reload()
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    Array.from(document.getElementsByClassName("loc-hl")).forEach(el => {
+        el.addEventListener('click', () => {
+            setLoc(el.innerHTML.toLowerCase())
+        })
+    })
+})
+
+
+
+
