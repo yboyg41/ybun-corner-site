@@ -25,6 +25,14 @@ body {
     height: 8cm;
 }
 
+#lang-select{
+    position: absolute
+}
+
+#lang-select > a:link, a:visited{
+    color: yellow;
+}
+
 #banner-bg {
     position: absolute;
     overflow: hidden;
