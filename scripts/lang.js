@@ -26,6 +26,12 @@ async function getLoc(){
         } else {
             locale = await response.json()
             console.log(locale)
+            document.querySelectorAll("[data-i18n]").forEach(el => {
+                let tagI18n = el.dataset.i18n
+                if (locale[tagI18n]) {
+                    el.innerHTML = locale[tagI18n]
+                }
+            })
         }
     } catch (error) {
         console.log("failed to fetch")
@@ -37,19 +43,7 @@ async function getLoc(){
 
 getLoc()
 
-setInterval(() => {
-    document.querySelectorAll("[data-i18n]").forEach(el => {
-        let tagI18n = el.dataset.i18n
 
-        if (locale[tagI18n]) {
-            el.innerHTML = locale[tagI18n]
-        }
-        
-        
-        
-    }), 
-    2
-})
 function setLoc(loc) {
     url.searchParams.set('lang', loc)
     history.replaceState({}, "", url)
@@ -62,6 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
             setLoc(el.innerHTML.toLowerCase())
         })
     })
+    
 })
 
 
