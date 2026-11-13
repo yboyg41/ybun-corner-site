@@ -3,7 +3,7 @@
     flex-direction: row;
     gap: 12px;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     justify-self: center;
 }
 
@@ -71,6 +71,14 @@
 #thumb-spi {
     margin-top: 24px;
     width: 50%;
+    scale: 100%;
+    height: auto;
+    align-self: center;
+}
+
+#thumb-bftp {
+    margin-top: 24px;
+    width: 70%;
     scale: 100%;
     height: auto;
     align-self: center;
